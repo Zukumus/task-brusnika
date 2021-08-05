@@ -15,10 +15,12 @@
 
 html {
   font-size: 16px;
+  height: 100%;
 }
 
 body {
   background-color: #9b9bb6;
+  min-height: 100%;
 }
 
 .wrapper__page {
