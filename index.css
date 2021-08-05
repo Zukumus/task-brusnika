@@ -194,6 +194,7 @@ body {
   background-color: hsl(0, 0%, 40%);
   border-color: hsl(0, 0%, 40%);
   text-decoration: line-through;
+  transition: 1s;
 }
 
 /* Button */

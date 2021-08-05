@@ -62,12 +62,15 @@ function completeTask(index) {
 
       console.log(todoItemsElemsStatus)
       todoItemsElemsStatus[index].classList.add('checked');
+      // todoItemsElemsStatus[index].style = 'animation: opacity 1.5s ease-in-out'
    } else {
       console.log(todoItemsElemsStatus)
+      // todoItemsElemsStatus[index].style = 'animation: opacity 1.5s ease-in-out'
       todoItemsElemsStatus[index].classList.remove('checked');
    }
    updateLocalStorage();
-   addFillHtmlTaskList();
+   setTimeout((index) => { addFillHtmlTaskList() }, 1000)
+
 };
 
 //DELETE TASK
