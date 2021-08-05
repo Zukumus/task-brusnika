@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="index.css">
+   <title>Document</title>
+</head>
+
+<body>
+   <div class="wrapper__page">
+
+      <header class="wrapper__task-header">
+         <h1 class="task__header-text">
+            <a class="task__header-text-hypertext" href="#">Добро пожаловать в планировщик задач</a>
+         </h1>
+      </header>
+
+      <div class="wrapper__task-page">
+         <main id="wrapper__task-JS" class="wrapper__main-task">
+            <div class="main__header-info">
+               <a class="main__image-hypertext"><img class="main__image-icon"
+                     src="https://i.pinimg.com/280x280_RS/fc/ff/b8/fcffb810a70d68a78baaefcd00da1466.jpg"></a>
+               <div class="main__task">
+                  <h2 class="main__header-task">Текущие задачи</h2>
+                  <div class="main__author-message">Введите задачу</div>
+               </div>
+            </div>
+            <div class="main__task-btn">
+               <label for="">Введите Задачу
+                  <input id="input-new-task" type="text" class="input-task" />
+               </label>
+               <button id="button-new-task" class="button-task">Ввести задачу </button>
+            </div>
+            <!-- OPEN JS ELEMENT -->
+            <div id="list__task-wrapper-JS" class="list__task-wrapper"></div>
+            <!--  CLOSE JS ELEMENT -->
+      </div>
+
+      </main>
+
+   </div>
+   <footer class="wrapper__task-footer" id="wrapper__task-footer"></footer>
+
+
+   <script src="index.js"></script>
+   <!-- <script src="./router/router.js"></script> -->
+
+</body>
+
+</html>
+<!-- 
+   <div class="form__group">
+      <label for="">Введите Задачу
+         <input id="new-task" type="text" />
+      </label>
+   </div>
+   -->
